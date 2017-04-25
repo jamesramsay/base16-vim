@@ -279,6 +279,8 @@ call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("markdownError",             s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")
 call <sid>hi("markdownCodeBlock",         s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("markdownHeadingDelimiter",  s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("markdownBold",              s:gui0A, "", s:cterm0A, "", "bold", "")
+call <sid>hi("markdownItalic",            s:gui0E, "", s:cterm0E, "", "italic", "")
 
 " NERDTree highlighting
 call <sid>hi("NERDTreeDirSlash",  s:gui0D, "", s:cterm0D, "", "", "")
